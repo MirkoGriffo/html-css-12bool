@@ -1,1 +1,23 @@
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: linear-gradient(45deg, #c59acf, #c02e69);
+}
 
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+.box {
+  text-align: center;
+  background: #e0afc8;
+  border: 1px solid;
+  height: 35px;
+  padding: 8px;
+}
