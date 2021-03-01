@@ -1,0 +1,83 @@
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-bottom: 100px;
+  margin-top: 25px;
+}
+
+.pista {
+  background-color: gray;
+  height: 60px;
+  border-bottom: 4px dashed white;
+}
+
+.audi {
+  background-image: url("../img car/Audi.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  animation: animate 4.5s ease-in;
+}
+.ambulance {
+  background-image: url("../img car/Ambulance.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  animation: animate 6.9s ease-out;
+}
+
+.black-viper {
+  background-image: url("../img car/Black_viper.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  animation: animate 4.8s linear;
+}
+
+.car {
+  background-image: url("../img car/car.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  animation: animate 5.6s ease-in;
+}
+
+.mini-truck {
+  background-image: url("../img car/Mini_truck.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  animation: animate 6.4s ease-out;
+}
+
+.mini-van {
+  background-image: url("../img car/Mini_van.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  animation: animate 6s ease-in-out;
+}
+
+.police {
+  background-image: url("../img car/Police.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  animation: animate 4.2s ease-in;
+}
+
+.taxi {
+  background-image: url("../img car/taxi.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  animation: animate 5.35s linear;
+}
+
+p {
+  padding: 20px;
+  color: white;
+  font-size: large;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: 1170px;
+  }
+}
